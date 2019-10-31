@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-data = pd.read_excel("D:/Users/luzbog/Documents/Poblacion_GrupoFamiliar_Nombres_Niños.xlsx")
+data = pd.read_excel("D:/Poblacion_GrupoFamiliar_Nombres_Niños.xlsx")
 
 data["Genero"][data["Genero"] == "Masculino"] = 1
 data["Genero"][data["Genero"] == "Femenino"] = 2
